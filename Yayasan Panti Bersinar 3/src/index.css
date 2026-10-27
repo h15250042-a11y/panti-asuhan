@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+:root {
+  --canvas: #FFFDF9;
+  --ink: #241708;
+  --ink-muted: #574332;
+  --panel-bg: #FFFFFF;
+}
+
+.dark {
+  --canvas: #16100a;
+  --ink: #f7ede2;
+  --ink-muted: #c9b9aa;
+  --panel-bg: #231b14;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--ink);
+  background-color: var(--canvas);
+}
+
+.bg-canvas {
+  background-color: var(--canvas);
+}
+
+.text-ink {
+  color: var(--ink);
+}
+
+.font-serif {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.font-subheading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.font-body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
